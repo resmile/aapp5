@@ -58,6 +58,7 @@ export const LoginForm = (props) => {
       });
 
       const user = userData.data.getUser;
+      console.log("user->", user);
 
       setDemoUsername(user.username);
       setDemoPassword(user.password);

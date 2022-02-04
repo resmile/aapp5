@@ -4,7 +4,8 @@
       "addmissingownerfields": true,
       "validatetypenamereservedwords": true,
       "useexperimentalpipelinedtransformer": false,
-      "enableiterativegsiupdates": false
+      "enableiterativegsiupdates": false,
+      "showfieldauthnotification": false
     },
     "frontend-ios": {
       "enablexcodeintegration": true
@@ -14,6 +15,9 @@
     },
     "codegen": {
       "useappsyncmodelgenplugin": true
+    },
+    "project": {
+      "overrides": true
     }
   }
 }
